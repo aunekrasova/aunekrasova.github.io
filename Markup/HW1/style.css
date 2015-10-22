@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #eeeeee;
+}
+
+h1 {
+	text-align: center;
+}
+
+p { 
+	padding: 0 30px 0;
+	font-size: 18px;
+}
+
+span{
+	display: block;
+}
+
+#sheet {
+	background-color: #FFFFFF;
+	width: 512px;
+	margin: auto;
+	border: #C6C6C6 2px solid;
+}
+
+.foto {
+	text-align: center;
+}
+
+.myfoto {
+	width:150px;
+	height:150px;
+}
+
+.want {
+	border-top: 1px solid black;
+
+}
+
+.contact {
+	border-top: 1px solid black;
+
+}
+
+.fb {
+	border-top: 1px solid black;
+
+}
+
+
