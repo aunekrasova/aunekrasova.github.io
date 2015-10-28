@@ -21,10 +21,11 @@ span{
 
 #sheet {
 	background-color: #FFFFFF;
-	width: 512px;
+	width: 400px;
 	margin: auto;
 	border: #C6C6C6 2px solid;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5)
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 30px 40px;
 }
 
 .foto {
@@ -36,9 +37,8 @@ span{
 	height:140px;
 }
 
-.line { border-top: 1px solid black;
-    padding: 20px;
-    margin: 0 20px 20px 20px;
+.line { 
+	border-top: 1px solid black;
 }
 
 
