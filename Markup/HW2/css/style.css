@@ -26,11 +26,6 @@ footer li:hover{
  text-decoration: underline;
 }
 
-footer li:last-child{
-    text-decoration: none;
-    margin-left: 410px;
-}
-
 #box {
     background-color: #ffffff;
     width: 1050px;
@@ -101,5 +96,11 @@ footer li:last-child{
     line-height: 21.3px;
     float: right;
     width: 677px;
+}
+
+.rights{
+    float: right;
+    margin: -29px 38px;
+    color: #666666;
 }
 
