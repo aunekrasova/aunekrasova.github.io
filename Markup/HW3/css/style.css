@@ -1,0 +1,162 @@
+
+body{
+    background: url(bg.png) repeat-x;
+    font-family: Tahoma;
+}
+
+.google_head{
+    background-color: #1297b8;
+}
+
+.google_head img{
+    
+    height: 46px;
+    width: 100%;
+}
+
+.conteiner{
+    background-color: #ffffff;
+    width: 1000px;
+    box-shadow: 0 0 5px;
+    height: 850px;
+    position: absolute;
+    top: 47px;
+    left: 23%;
+    overflow: hidden;
+}
+
+.header{
+    padding: 25px 25px 19px 25px;
+    font-size: 12px;
+    color: #128aa7;
+    line-height: 21px;
+}
+
+.logo{
+    width: 80%;
+}
+
+.logo p{
+    margin: -64px 87px;
+}
+
+.contacts{
+    float: right;
+    margin-top: -89px;
+}
+
+.contries{
+    float: right;
+}
+
+.contries div{
+    float: left;
+    margin: 5px;
+    font-size: 10px;
+}
+
+.contries div p {
+    text-align: center;
+}
+
+.photo{
+    margin: -25px;
+}
+
+#nav{
+    float:left;
+    width:100%;
+    list-style:none;
+    background-color: #303030;
+    box-shadow: 1px 1px 4px black;
+    margin: 0 0 3px 0;
+}
+
+#nav li{
+    float:left;
+    position:relative;
+    display:block;
+    padding: 0px 0 0 52px;
+
+}
+
+#nav li a{
+    display:block;
+    padding:5px;
+    color:#fff;
+    text-decoration:none;
+ }   
+  
+#nav li a:hover{
+    color:#fff;
+    background:#303030;
+    
+}
+
+#nav ul{
+    list-style:none;
+    position:absolute;
+    left:-9999px; 
+
+}
+
+#nav ul li{
+    float:none;
+}
+
+#nav ul a{
+    white-space:nowrap; 
+    display:block;
+}
+
+#nav li:hover ul{ 
+    left:0; 
+    opacity:1;
+    box-shadow: 1px 1px 4px black; 
+    background:#303030;
+}
+
+.block{
+    width: 1000px;
+    overflow: hidden;
+}
+
+.leftcolumn{
+    width: 24%;
+    background-color: #edeef0;
+    float: left;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    line-height: 18px;
+    color: #424c43;
+    text-align: center;
+}
+
+.centercolumn{
+    width:52%;
+    float: left;
+    background-color: #ffffff;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+
+.rightcolumn{
+    width: 24%;
+    background-color: #edeef0;
+    float: right;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    line-height: 18px;
+    color: #424c43;
+    text-align: center;
+}
+
+.copy{
+    position: absolute;
+    top: 911px;
+    left: 824px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+
