@@ -16,13 +16,19 @@ body{
 
 .conteiner{
     background-color: #ffffff;
-    width: 1000px;
     box-shadow: 0 0 5px;
-    height: 850px;
     position: absolute;
     top: 47px;
     left: 23%;
     overflow: hidden;
+}
+
+.conteiner:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
 
 .header{
@@ -47,16 +53,29 @@ body{
 
 .contries{
     float: right;
+    list-style:none;
 }
 
-.contries div{
-    float: left;
-    margin: 5px;
+.contries ul{
+    float: right;
     font-size: 10px;
 }
 
-.contries div p {
+.contries ul p {
     text-align: center;
+    color: #128aa7;
+    text-decoration: underline;
+}
+    
+.contries li{
+    float:right;
+    display:block;
+}
+
+.contries li a{
+    display:block;
+    padding:5px 0px 0px 11px;
+    text-decoration:none;
 }
 
 .photo{
@@ -76,13 +95,13 @@ body{
     float:left;
     position:relative;
     display:block;
-    padding: 0px 0 0 52px;
+    padding: 0px 41px 0 0;
 
 }
 
 #nav li a{
     display:block;
-    padding:5px;
+    padding:5px 0px 9px 20px;
     color:#fff;
     text-decoration:none;
  }   
@@ -136,16 +155,12 @@ body{
     width:52%;
     float: left;
     background-color: #ffffff;
-    padding-bottom: 20000px;
-    margin-bottom: -20000px;
 }
 
 .rightcolumn{
     width: 24%;
     background-color: #edeef0;
     float: right;
-    padding-bottom: 20000px;
-    margin-bottom: -20000px;
     line-height: 18px;
     color: #424c43;
     text-align: center;
