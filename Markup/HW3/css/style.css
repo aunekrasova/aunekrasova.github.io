@@ -1,26 +1,17 @@
 
 body{
-    background: url(bg.png) repeat-x;
+    background: url(../img/bg.png) repeat-x;
     font-family: Tahoma;
 }
 
-.google_head{
-    background-color: #1297b8;
-}
-
-.google_head img{
-    
-    height: 46px;
-    width: 100%;
-}
-
-.conteiner{
+.conteiner {
     background-color: #ffffff;
     box-shadow: 0 0 5px;
-    position: absolute;
-    top: 47px;
-    left: 23%;
+    width: 1000px;
     overflow: hidden;
+    margin: auto;
+    height: 50%;
+
 }
 
 .conteiner:after{
@@ -32,14 +23,15 @@ body{
 }
 
 .header{
-    padding: 25px 25px 19px 25px;
     font-size: 12px;
     color: #128aa7;
     line-height: 21px;
 }
 
 .logo{
-    width: 80%;
+    float: left;
+    height: 174px;
+    margin: 0 25px
 }
 
 .logo p{
@@ -48,16 +40,17 @@ body{
 
 .contacts{
     float: right;
-    margin-top: -89px;
+    margin: 20px 25px;
 }
 
 .contries{
-    float: right;
-    list-style:none;
+    list-style: none;
+    position: relative;
+    top: 106px;
+    left: 284px;
 }
 
 .contries ul{
-    float: right;
     font-size: 10px;
 }
 
@@ -68,18 +61,15 @@ body{
 }
     
 .contries li{
-    float:right;
-    display:block;
+    display: inline-block;
 }
 
 .contries li a{
-    display:block;
-    padding:5px 0px 0px 11px;
-    text-decoration:none;
+       padding: 5px 3px 0px 11px;
 }
 
 .photo{
-    margin: -25px;
+        height: 320px;
 }
 
 #nav{
@@ -135,30 +125,26 @@ body{
     background:#303030;
 }
 
-.block{
-    width: 1000px;
-    overflow: hidden;
-}
-
 .leftcolumn{
-    width: 24%;
+    width: 240px;
+    height: 396px;
     background-color: #edeef0;
     float: left;
-    padding-bottom: 20000px;
-    margin-bottom: -20000px;
     line-height: 18px;
     color: #424c43;
     text-align: center;
 }
 
 .centercolumn{
-    width:52%;
+    width:520px;
+    height: 396px;
     float: left;
     background-color: #ffffff;
 }
 
 .rightcolumn{
-    width: 24%;
+    width: 240px;
+    height: 396px;
     background-color: #edeef0;
     float: right;
     line-height: 18px;
@@ -167,11 +153,10 @@ body{
 }
 
 .copy{
-    position: absolute;
-    top: 911px;
-    left: 824px;
     color: #ffffff;
     font-size: 12px;
+    text-align: center;
+    line-height: 30px;
 }
 
 
