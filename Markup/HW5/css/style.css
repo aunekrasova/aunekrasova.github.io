@@ -37,26 +37,36 @@ input{
     padding: 0 0 0 10px;
     font-size: 14px;
     color: #cccccc;
-    border-style: none;
-
 }
 
 input:focus{
     background-color: rgba(27,82, 136, 0.9);
-    box-shadow: 0 0 10px rgba(27,82, 136, 1);
-    border-style: none;
+    box-shadow: 0 0 20px rgba(27,82, 136, 1);
+    outline: none;
 }
 
-p{
+p {
+    font-size: 11px;
+    color: #cccccc;
+    position: absolute;
+    top: 441px;
+    left: 175px;
+}
+
+.checkbox{
+    width: 296px;
+}
+
+.privacy{
     font-size: 11px;
     color: #cccccc;
     margin: 21px;
 }
 
 .menu{
-    float:right;
-    width:100%;
-    list-style:none;
+    float: right;
+    width: 100%;
+    list-style: none;
     background-color: #085596;
 }
 
@@ -98,8 +108,8 @@ p{
 
 .blok{
     position: absolute;
-    float: left;
-    margin: 17%;
+    top: 262px;
+    right: 624px;
     color: #ffffff;
     width: 30%;
 }
@@ -140,4 +150,6 @@ p{
     border-bottom: 1px solid black;
     height: 0;
 }
+
+
 
