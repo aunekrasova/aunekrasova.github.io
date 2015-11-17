@@ -1,7 +1,7 @@
 body{
     background: url(../img/bg.png) repeat-x;
     font-family: Tahoma;
-    padding: 41px 0 0;
+    padding: 41px 0;
 }
 
 .conteiner {
@@ -81,7 +81,7 @@ body{
     list-style:none;
     background-color: #303030;
     box-shadow: 1px 1px 4px black;
-    position: absolute;
+    position: relative;
     z-index: 500;
     font-size: 14px;
 }
@@ -133,62 +133,30 @@ body{
     background:#303030;
 }
 
-.rightblock {
-    width: 100%;
-    float:left;
-    background-color: #edeef0;
-    overflow:hidden;
-    position:relative;
+.fon {
+    width: 1000px;
+    background: url(../img/fon.png) repeat-y; 
+    float: left; 
 }
 
-.contentblock {
-    float:left;
-    background-color: #ffffff;
-    width: 100%;
-    position:relative;
-    right: 239px;   
-}
 
-.leftbloc {
-    width: 100%;
-    position:relative;
-    right: 520px; 
-    float:left;
-    background-color: #edeef0;
-    border-right: 1px solid #c7cacf
-}
-
-.leftcolumn{
-    width: 239px;
-    padding-top: 37px;
+.leftcolumn {
+    width: 210px;
     float: left;
     line-height: 24px;
-    color: #424c43;
     text-align: center;
-    overflow:hidden;
-    position:relative;
-    left: 760px;
 }
 
-.centercolumn{
-    width:520px;
+.centercolumn {
+    width: 580px;
     float: left;
-    overflow:hidden;
-    position:relative;
-    left: 760px;
 }
 
-.rightcolumn{
-    width: 239px;
-    float: left;
+.rightcolumn {
+    width: 210px;
+    float: right;
     line-height: 24px;
-    color: #424c43;
-    text-align: center;
-    border-left: 1px solid #c7cacf;
-    overflow:hidden;
-    position:relative;
-    left: 1280px;
-    padding-top: 37px;
+     text-align: center;
 }
 
 .copy{
