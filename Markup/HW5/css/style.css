@@ -1,6 +1,6 @@
 
 @font-face{
-    font-family: "HelveticaRegular";
+    font-family: "Helvetica";
     src: url("../fonts/HelveticaRegular/HelveticaRegular.eot");
     src: url("../fonts/HelveticaRegular/HelveticaRegular.eot?#iefix")format("embedded-opentype"),
     url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"),
@@ -10,7 +10,7 @@
 }
 
 body{
-    font-family: HelveticaRegular, Arial, sans-serif;
+    font-family: Helvetica, Tahoma, sans-serif;
     text-align: center;
     padding: 0 344px 0;
 }
@@ -37,26 +37,79 @@ input{
     padding: 0 0 0 10px;
     font-size: 14px;
     color: #cccccc;
-    border-style: none;
-
 }
 
 input:focus{
     background-color: rgba(27,82, 136, 0.9);
-    box-shadow: 0 0 10px rgba(27,82, 136, 1);
-    border-style: none;
+    box-shadow: 0 0 20px rgba(27,82, 136, 1);
+    outline: none;
 }
 
-p{
+p {
+    font-size: 11px;
+    color: #cccccc;
+    position: absolute;
+    top: 441px;
+    left: 175px;
+}
+
+button{
+    background: -moz-linear-gradient(bottom, #2e4378 0%, #3b5699 50%);
+    background: -webkit-linear-gradient(bottom, #2e4378 0%, #3b5699 50%);
+    background: -o-linear-gradient(bottom, #2e4378 0%, #3b5699 50%);
+    background: linear-gradient(bottom, #2e4378 0%, #3b5699 50%);
+    color: #ffffff;
+    width: 206px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 32px;
+}
+
+span{
+    font-weight: 300;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+button h3{
+    float: left;
+    padding: 7px 13px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    border-style: ridge;
+    border-color: #4c65a5;
+    border-width: 2px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+} 
+
+h2{
+    padding: 10px 1px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+button a{
+    text-decoration: none;
+}
+
+.checkbox{
+    width: 296px;
+}
+
+.privacy{
     font-size: 11px;
     color: #cccccc;
     margin: 21px;
 }
 
 .menu{
-    float:right;
-    width:100%;
-    list-style:none;
+    float: right;
+    width: 100%;
+    list-style: none;
     background-color: #085596;
 }
 
@@ -98,14 +151,10 @@ p{
 
 .blok{
     position: absolute;
-    float: left;
-    margin: 17%;
+    top: 262px;
+    right: 624px;
     color: #ffffff;
     width: 30%;
-}
-
-.fb{
-    padding: 30px 0 0;
 }
 
 .submit{
@@ -140,4 +189,6 @@ p{
     border-bottom: 1px solid black;
     height: 0;
 }
+
+
 
