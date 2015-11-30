@@ -1,25 +1,40 @@
 
 @font-face{
-    font-family: "Helvetica";
-    src: url("../fonts/HelveticaRegular/HelveticaRegular.eot");
-    src: url("../fonts/HelveticaRegular/HelveticaRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"),
-    url("../fonts/HelveticaRegular/HelveticaRegular.ttf") format("truetype");
-    font-style: normal;
+    font-family: 'helveticaneuecyrroman';
+    src: url(../fonts/Helvetica/helveticaregular-webfont.eot);
+    src: url(../fonts/Helvetica/helveticaregular-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/Helvetica/helveticaregular-webfont.woff2) format('woff2'),
+         url(../fonts/Helvetica/helveticaregular-webfont.woff) format('woff'),
+         url(../fonts/Helvetica/helveticaregular-webfont.ttf) format('truetype'),
+         url(../fonts/Helvetica/helveticaregular-webfont.svg#helveticaneuecyrroman) format('svg');
     font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
-    font-family: Helvetica, Tahoma, sans-serif;
-    text-align: center;
-    padding: 0 344px 0;
+    font-family: 'helveticaneuecyrroman', Tahoma, sans-serif;
+    background: url(../img/bg.png) top no-repeat;
+    background-size: cover;
+}
+
+header{
+    margin-bottom: 200px;
+    width: 100%;
 }
 
 h1{
-    background-color: rgba(16,15,15,0.5);
-    line-height: 38px;
+    background-color: rgba(16, 15, 15, 0.498039);
+    line-height: 51px;
     margin-bottom: 2px;
     font-size: 24px;
+    padding-left: 205px;
+    font-weight: 100;
 }
 
 form{
@@ -37,6 +52,7 @@ input{
     padding: 0 0 0 10px;
     font-size: 14px;
     color: #cccccc;
+    margin-left: 142px;
 }
 
 input:focus{
@@ -48,9 +64,7 @@ input:focus{
 p {
     font-size: 11px;
     color: #cccccc;
-    position: absolute;
-    top: 441px;
-    left: 175px;
+    margin: 29px 66px;
 }
 
 button{
@@ -59,10 +73,11 @@ button{
     background: -o-linear-gradient(bottom, #2e4378 0%, #3b5699 50%);
     background: linear-gradient(bottom, #2e4378 0%, #3b5699 50%);
     color: #ffffff;
-    width: 206px;
-    border-radius: 5px;
+    width: 282px;
     border: none;
     margin-top: 32px;
+    font-size: 11px;
+    margin-left: 140px;
 }
 
 span{
@@ -96,35 +111,25 @@ button a{
     text-decoration: none;
 }
 
-.checkbox{
-    width: 296px;
-}
-
-.privacy{
-    font-size: 11px;
-    color: #cccccc;
-    margin: 21px;
-}
-
 .menu{
-    float: right;
+    overflow: hidden;
     width: 100%;
     list-style: none;
-    background-color: #085596;
+    background-color: rgb(8, 85, 150);
 }
 
 .menu li{
-    float:right;
-    display:block;
-    padding: 0px 40px 0 0;
+    float: right;
+    display: block;
+    padding: 0px 2% 0px 0px;
 
 }
 
 .menu li a{
-    display:block;
-    padding:0px 8px 0px 8px;;
-    color:#4eabda;
-    text-decoration:none;
+    display: block;
+    padding: 0px 8px 0px 8px;
+    color: #4eabda;
+    text-decoration: none;
     line-height: 40px;
  }   
   
@@ -145,16 +150,14 @@ button a{
     border-right: #4eabda solid 1px;
 }
 
-#box{
-    float: left;
+.blok{
+    margin: auto;
+    color: rgb(255, 255, 255);
+    width: 560px;
 }
 
-.blok{
-    position: absolute;
-    top: 262px;
-    right: 624px;
-    color: #ffffff;
-    width: 30%;
+.fb {
+    padding: 30px 139px 0px;
 }
 
 .submit{
@@ -165,6 +168,8 @@ button a{
     color: #ffffff;
     width: 150px;
     border-radius: 5px;
+    padding: 0px;
+    margin-left: 200px;
 }
 
 .line{
@@ -188,6 +193,17 @@ button a{
     border-top: 1px solid gray;
     border-bottom: 1px solid black;
     height: 0;
+}
+
+#checkbox {
+    border: none;
+    width: 6%;
+}
+
+.privacy{
+    font-size: 11px;
+    color: #cccccc;
+    margin: 21px 63px;
 }
 
 
