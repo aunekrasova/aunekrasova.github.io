@@ -1,0 +1,20 @@
+body {
+	font-size: 50px;
+}
+
+#clock {
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	width: 500px;
+	text-align: center;
+	border-radius: 5px;
+	margin: auto;
+    margin-top: 185px;
+}
+
+.buttons {
+	margin: auto;
+}
+
+
