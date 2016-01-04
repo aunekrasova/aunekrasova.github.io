@@ -1,0 +1,150 @@
+@media screen and (min-width: 960px) and (max-width: 1280px){
+   
+.arrow__slider__right{
+    position: absolute;
+    top: 44%;
+    left: 87%;
+}
+
+.arrow__slider__left{
+    position: absolute;
+    top: 44%;
+    left: -133%;
+}
+
+.mountains__content{
+    padding-top: 4%;
+    padding-left: 0;
+ }
+
+.logo{
+    margin-bottom: 0;
+    padding-left: 0%;
+    margin-right: 13%;
+}
+
+header{
+    padding-bottom: 172px;
+    width: 95%;
+}
+
+.nav__menu .item_curent{
+    padding: 7px 7px 0px 0px;
+}
+
+.nav__menu .item {
+    padding: 7px 6px 0px 35px;
+}
+
+.slider__content {
+    padding-left: 0%;
+    position: relative;
+}
+
+.slider__img {
+    float: right;
+    position: relative;
+}
+
+.text{
+    width: 52%;
+    margin-top: 7%;
+    margin-left: 2%;
+}
+
+.iphone {
+    margin-top: -6%;
+    padding-left: 0px;
+    margin-right: 74px;
+}
+
+.play{
+    position: absolute;
+    top: 31%;
+    right: 36%;
+}
+
+.about{
+    width: 32%;
+}
+
+.about p{
+    
+    padding: 1% 0% 0% 21%;
+}
+
+.about h3{
+    padding: 27% 0% 0% 21%;
+    background-position: -56px 77px;
+}
+
+.about h4{
+     padding: 0% 0% 0% 73%;
+     float: none;
+}
+
+.content__white__block{
+    padding: 5% 0% 0% 0%;
+}
+
+article{
+    width: 45%;
+    margin-right: 7%;
+   
+}
+
+article h3{
+    padding: 3% 0% 1% 9%;
+}
+
+article p{
+    padding:  0% 7% 9% 9%;
+}
+
+.autor{
+    position: absolute;
+    top: 4%;
+    left: -6%;
+}
+
+.updates h3{
+    margin-top: 6%;
+    margin-left: 0%;
+}
+
+.updates h5{
+    margin-top: 5%;
+    margin-left: 9%;
+}
+
+.slider__white__button {
+    position: absolute;
+    top: 280px;
+    left: -316px;
+}
+
+.company li{
+    margin: 3% 5% 2% 1%;
+}
+
+.info{
+    width: 33%;
+}
+
+.info p{
+       padding: 4% 5% 28px 0px;
+}
+
+footer{
+   width: 95%;
+   padding-left: 0;
+}
+
+footer li{
+   padding: 0% 1% 0% 1%;
+}
+
+.copyright{
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
