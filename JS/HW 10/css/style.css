@@ -1,0 +1,307 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #969696;
+}
+
+nav {
+    background-color:rgb(68, 68, 68);
+    padding:10px 0;
+    border-radius: 3px;
+    margin-top: 19px;
+}
+
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+nav ul li {
+    display:inline-block;
+    position:relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav li ul {    
+    background-color:rgb(245, 114, 25);
+    position:absolute;
+    left:0;
+    top:40px; 
+    width:200px;
+    border-radius: 2px;
+}
+
+nav li li {
+    position:relative;
+    margin:0;
+    display:block;
+    padding: 10px 0 0 0;
+}
+
+nav li li ul {
+    position:absolute;
+    top:0;
+    left:200px; 
+    margin:0;
+}
+
+nav a {
+    line-height:40px;
+    padding: 0 15px;
+    margin: 0 48px;
+}
+
+nav a {
+    color:#fff;
+    text-decoration:none;
+    display:block;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+    color:#e7e7e7;
+}
+
+nav li li a {
+    margin:0 10px;
+    padding:0;
+}
+
+nav li li:last-child a {
+    border-bottom:none;
+}
+
+nav li.dropdown > a {
+    background-image:url('../img/arrow-down.png');
+    background-position:right 13px;
+    background-repeat:no-repeat;
+}
+
+nav li li.dropdown > a {
+    background-image:url('../img/arrow-right.png');
+    background-position:right 16px;
+    background-repeat:no-repeat;
+}
+
+ul.sub-menu {
+    display:none;
+}
+
+span p {
+    margin-left: 21px;
+    width: 156px;
+}
+
+.main {
+    margin: auto;
+    width: 960px;
+    padding-bottom: 100px;
+    background: #FFFFFF;
+    padding-top: 30px;
+}
+
+.menu{
+    width: 84%;
+    margin-left: 79px;
+    text-shadow: 0 0 1px #000
+    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;
+}
+
+.conteiner{
+    margin-left: 81px;
+}
+
+.conteiner h3 {
+    color: rgb(68, 68, 68);
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.jcarousel-wrapper {
+    margin: 20px auto;
+    position: relative;
+    border: 10px solid #fff;
+    width: 784px;
+    height: 460px;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;
+}
+
+.jcarousel-wrapper .photo-credits {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+    opacity: 0.66;
+}
+
+.jcarousel-wrapper .photo-credits a {
+    color: #fff;
+}
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+    position: absolute;
+    top: 200px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #4E443C;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 24px/27px Arial, sans-serif;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;
+}
+
+.jcarousel-control-prev {
+    left: -50px;
+}
+
+.jcarousel-control-next {
+    right: -50px;
+}
+
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+    display: block;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+    opacity: .5;
+    cursor: default;
+}
+
+.jcarousel-pagination {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+}
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+    
+    font-size: 11px;
+    line-height: 14px;
+    min-width: 14px;
+    
+    background: #fff;
+    color: #4E443C;
+    border-radius: 14px;
+    padding: 3px;
+    text-align: center;
+    
+    margin-right: 2px;
+    
+    opacity: .75;
+}
+
+.jcarousel-pagination a.active {
+    background: #4E443C;
+    color: #fff;
+    opacity: 1;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+}
+
+.cuselFrameRight {
+background: url(../pic/select.png) no-repeat;
+background-position: center center;
+-moz-background-size: contain;
+-o-background-size: contain;
+-webkit-background-size: contain;
+-khtml-background-size: contain;
+background-size: contain;
+display: block;
+height: 2.2em;
+position: absolute;
+right: 0;
+top: 0;
+width: 10%;
+cursor:pointer;
+}
+
+.cusel-scroll-wrap {
+display:none;
+position:absolute;
+border:1px solid #ccc;
+width:100%;
+height: 8.5em;
+margin-left: -0.5em;
+margin-top: 0.5em;
+padding: 0 0.5em;
+visibility: visible;
+width: 94%;
+overflow:hidden;
+background-color: #e7e7e7;
+z-index: 10;
+}
+
+.cusel-scroll-wrap  span {
+display: block;
+cursor:pointer;
+margin: 0.5em 0;
+font-size:1em;
+}
+
+#cusel-scroll-quest {
+position:absolute;
+}
+
+.checkbox_css div{
+    margin-top: 15px;
+}
+
+.myCheck {
+width: 17px;
+height: 17px;
+display: inline-block;
+cursor: pointer;
+background: url(../img/checkbox.png);
+}
+
+.myCheck input {
+display: none;
+}
+
+.checkbox_js div {
+    margin-top: 15px;
+}
