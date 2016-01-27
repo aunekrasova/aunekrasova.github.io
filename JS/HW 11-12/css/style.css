@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Tahoma;
+}
+
+.main{
+    width: 960px;
+    margin: auto;
+}
+
+.carousel {
+    width: 616px;
+    overflow: hidden;
+    float: left;
+}
+ 
+.carousel-list {    
+    list-style: none;
+    width: 10000px;
+    padding: 0px;
+    position: relative;
+}
+ 
+.carousel-element {
+    display: block;
+    margin-right: 20px;
+    float: left;
+}
+ 
+.carousel-element img {
+    max-width: 300px;
+}
+ 
+.jcarousel-control-prev, .jcarousel-control-next {
+    float: left;
+    display: block;
+    padding: 5px;
+    margin-top: 50px;
+}
+ 
+.jcarousel-control-prev:hover, .jcarousel-control-next:hover {
+    cursor: pointer;
+    background-color: #f16682;
+}
+ 
+.jcarousel-control-prev {
+    margin-right: 25px;
+    border-radius: 25px;
+    background-color: #f6b0ba;
+    border-color: #f6b0ba
+}
+ 
+.jcarousel-control-next {
+    margin-left: 25px;
+    border-radius: 25px;
+    background-color: #f6b0ba;
+    border-color: #f6b0ba
+}
+
+.article {
+    float: left;
+    width: 50%;
+    margin: auto 20%;
+}
