@@ -1,0 +1,30 @@
+body {
+	width: 100%;
+	height: 100%;
+	font-family: arial, sans-serif;
+}
+
+.search {
+	width: 45%;
+	margin: 50px auto;
+}
+
+.search form {
+	text-align: center;
+}
+
+.search li {
+	margin-bottom: 20px;
+}
+
+.search li a h4 {
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+.search li p {
+	font-size: 14px;
+	line-height: 17px;
+	margin: 0;
+}
+
